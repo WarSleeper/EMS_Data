@@ -6,6 +6,7 @@ import org.apache.log4j.Logger;
 
 import com.gemo.core.constant.SystemConstant;
 import com.gemo.core.mvc.pojo.BusinessObject;
+import com.gemo.ems.pojo.demo.single.SingleTest;
 import com.gemo.junit.base.BaseTest;
 
 /**
@@ -21,7 +22,7 @@ public class EMSTest extends BaseTest {
 	@Override
 	protected void handle() {
 		// TODO Auto-generated method stub
-		
+		query(new SingleTest());
 	}
 	
 	private <T extends BusinessObject> void insert(T object){

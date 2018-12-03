@@ -53,7 +53,7 @@ public class EMSAnalysis {
 	
 	private static Logger log = Logger.getLogger(EMSAnalysis.class);
 	
-	private static final String packageScan = "com.persagy.ems.pojo";
+	private static final String packageScan = "com.gemo.ems.pojo";
 	
 	@Resource
 	private SystemSetting systemSetting;
